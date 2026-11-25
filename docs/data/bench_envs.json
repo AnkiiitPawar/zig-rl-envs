@@ -1,0 +1,223 @@
+{
+ "gymnasium": "1.4.0",
+ "envpool": "1.2.8",
+ "min_seconds": 1.0,
+ "runs": [
+  {
+   "env": "cartpole",
+   "envs": 1,
+   "impl": "zrl",
+   "steps_per_second": 3146165.464386277
+  },
+  {
+   "env": "cartpole",
+   "envs": 1,
+   "impl": "gymnasium",
+   "steps_per_second": 132435.49878226948
+  },
+  {
+   "env": "cartpole",
+   "envs": 1,
+   "impl": "envpool",
+   "steps_per_second": 15852.047740990594
+  },
+  {
+   "env": "cartpole",
+   "envs": 16,
+   "impl": "zrl",
+   "steps_per_second": 57439757.96575768
+  },
+  {
+   "env": "cartpole",
+   "envs": 16,
+   "impl": "gymnasium",
+   "steps_per_second": 136990.54653634696
+  },
+  {
+   "env": "cartpole",
+   "envs": 16,
+   "impl": "gym-numpy",
+   "steps_per_second": 387754.118279114
+  },
+  {
+   "env": "cartpole",
+   "envs": 16,
+   "impl": "envpool",
+   "steps_per_second": 195324.56656102868
+  },
+  {
+   "env": "cartpole",
+   "envs": 256,
+   "impl": "zrl",
+   "steps_per_second": 58568981.49779934
+  },
+  {
+   "env": "cartpole",
+   "envs": 256,
+   "impl": "gymnasium",
+   "steps_per_second": 183321.57898416027
+  },
+  {
+   "env": "cartpole",
+   "envs": 256,
+   "impl": "gym-numpy",
+   "steps_per_second": 4519995.948144119
+  },
+  {
+   "env": "cartpole",
+   "envs": 256,
+   "impl": "envpool",
+   "steps_per_second": 846872.1212052985
+  },
+  {
+   "env": "cartpole",
+   "envs": 4096,
+   "impl": "zrl",
+   "steps_per_second": 57520959.21645367
+  },
+  {
+   "env": "cartpole",
+   "envs": 4096,
+   "impl": "gym-numpy",
+   "steps_per_second": 22042626.074761003
+  },
+  {
+   "env": "cartpole",
+   "envs": 4096,
+   "impl": "envpool",
+   "steps_per_second": 1271827.0505861195
+  },
+  {
+   "env": "pendulum",
+   "envs": 1,
+   "impl": "zrl",
+   "steps_per_second": 10400877.805102753
+  },
+  {
+   "env": "pendulum",
+   "envs": 1,
+   "impl": "gymnasium",
+   "steps_per_second": 91640.5664284544
+  },
+  {
+   "env": "pendulum",
+   "envs": 1,
+   "impl": "envpool",
+   "steps_per_second": 13425.615153813664
+  },
+  {
+   "env": "pendulum",
+   "envs": 16,
+   "impl": "zrl",
+   "steps_per_second": 10650063.800127234
+  },
+  {
+   "env": "pendulum",
+   "envs": 16,
+   "impl": "gymnasium",
+   "steps_per_second": 86586.65335013601
+  },
+  {
+   "env": "pendulum",
+   "envs": 16,
+   "impl": "envpool",
+   "steps_per_second": 134397.91145644934
+  },
+  {
+   "env": "pendulum",
+   "envs": 256,
+   "impl": "zrl",
+   "steps_per_second": 11324993.116106445
+  },
+  {
+   "env": "pendulum",
+   "envs": 256,
+   "impl": "gymnasium",
+   "steps_per_second": 99000.06277639035
+  },
+  {
+   "env": "pendulum",
+   "envs": 256,
+   "impl": "envpool",
+   "steps_per_second": 1089000.4413788633
+  },
+  {
+   "env": "pendulum",
+   "envs": 4096,
+   "impl": "zrl",
+   "steps_per_second": 11799809.66192753
+  },
+  {
+   "env": "pendulum",
+   "envs": 4096,
+   "impl": "envpool",
+   "steps_per_second": 1764533.6210575239
+  },
+  {
+   "env": "acrobot",
+   "envs": 1,
+   "impl": "zrl",
+   "steps_per_second": 1680840.6608923618
+  },
+  {
+   "env": "acrobot",
+   "envs": 1,
+   "impl": "gymnasium",
+   "steps_per_second": 27227.163365211727
+  },
+  {
+   "env": "acrobot",
+   "envs": 1,
+   "impl": "envpool",
+   "steps_per_second": 14962.816516381363
+  },
+  {
+   "env": "acrobot",
+   "envs": 16,
+   "impl": "zrl",
+   "steps_per_second": 2960887.201188448
+  },
+  {
+   "env": "acrobot",
+   "envs": 16,
+   "impl": "gymnasium",
+   "steps_per_second": 29698.361762921268
+  },
+  {
+   "env": "acrobot",
+   "envs": 16,
+   "impl": "envpool",
+   "steps_per_second": 149195.76690472636
+  },
+  {
+   "env": "acrobot",
+   "envs": 256,
+   "impl": "zrl",
+   "steps_per_second": 2825321.796577236
+  },
+  {
+   "env": "acrobot",
+   "envs": 256,
+   "impl": "gymnasium",
+   "steps_per_second": 32746.291091162413
+  },
+  {
+   "env": "acrobot",
+   "envs": 256,
+   "impl": "envpool",
+   "steps_per_second": 676801.1830899826
+  },
+  {
+   "env": "acrobot",
+   "envs": 4096,
+   "impl": "zrl",
+   "steps_per_second": 2735703.537881296
+  },
+  {
+   "env": "acrobot",
+   "envs": 4096,
+   "impl": "envpool",
+   "steps_per_second": 858415.2683917398
+  }
+ ]
+}

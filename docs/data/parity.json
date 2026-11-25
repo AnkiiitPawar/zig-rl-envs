@@ -1,0 +1,63 @@
+{
+ "gymnasium": "1.4.0",
+ "numpy": "2.5.3",
+ "trig_mismatches": 0,
+ "suites": [
+  {
+   "env": "cartpole",
+   "case": "episodes, random actions",
+   "sequences": 2000,
+   "steps": 44512,
+   "terminations": 2000,
+   "mismatches": 0
+  },
+  {
+   "env": "cartpole",
+   "case": "episodes, balancing controller",
+   "sequences": 500,
+   "steps": 250000,
+   "terminations": 0,
+   "mismatches": 0
+  },
+  {
+   "env": "cartpole",
+   "case": "wide states, 5 steps",
+   "sequences": 20000,
+   "steps": 81880,
+   "terminations": 8989,
+   "mismatches": 0
+  },
+  {
+   "env": "pendulum",
+   "case": "episodes, random actions",
+   "sequences": 200,
+   "steps": 40000,
+   "terminations": 0,
+   "mismatches": 0
+  },
+  {
+   "env": "pendulum",
+   "case": "wide states, 5 steps",
+   "sequences": 20000,
+   "steps": 100000,
+   "terminations": 0,
+   "mismatches": 0
+  },
+  {
+   "env": "acrobot",
+   "case": "episodes, random actions",
+   "sequences": 200,
+   "steps": 99953,
+   "terminations": 1,
+   "mismatches": 0
+  },
+  {
+   "env": "acrobot",
+   "case": "wide states, 5 steps",
+   "sequences": 20000,
+   "steps": 70434,
+   "terminations": 12365,
+   "mismatches": 0
+  }
+ ]
+}
